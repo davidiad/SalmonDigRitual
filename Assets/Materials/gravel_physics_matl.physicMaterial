@@ -6,8 +6,8 @@ PhysicMaterial:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: gravel_physics_matl
-  dynamicFriction: .0500000007
-  staticFriction: .400000006
-  bounciness: .800000012
+  dynamicFriction: .150000006
+  staticFriction: .949999988
+  bounciness: .100000001
   frictionCombine: 3
   bounceCombine: 0
