@@ -6,11 +6,11 @@ public class GenerateGravel : MonoBehaviour {
 
 public GameObject prefab;
 public int numberOfObjects = 20;
-public float radius = 5f;
+public float radius = 3.5f;
 
-	public int gridX = 10;
-	public int gridY = 10;
-	public float scale = 1.0f;
+	public int gridX = 20;
+	public int gridY = 20;
+	public float scale = 2.5f;
 
 void Update() {
 		if (Input.GetButtonDown ("Jump")) {

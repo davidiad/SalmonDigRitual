@@ -14,7 +14,6 @@ public class HealthScript : MonoBehaviour {
 
 	void OnCollisionEnter (Collision col) {
 		health -= 0.1f;
-		Debug.Log ("Health: " + health);
 		healthText.text = "Health: " + health;
 		if (health <= 0.0f) {
 			die ();

@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts-Redd\GenerateGravel.cs" />
      <Compile Include="Assets\Scripts-Redd\GravelPush.cs" />
      <Compile Include="Assets\Scripts-Redd\HealthScript.cs" />
+     <Compile Include="Assets\Scripts-Redd\LayEggs.cs" />
      <Compile Include="Assets\Scripts-Redd\MoveWithKeys.cs" />
      <Compile Include="Assets\Scripts-Redd\StoreMeshVertices.cs" />
      <Compile Include="Assets\Scripts-Redd\TailFlip.cs" />
