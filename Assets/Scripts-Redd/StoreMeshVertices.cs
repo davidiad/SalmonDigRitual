@@ -10,6 +10,10 @@ public class StoreMeshVertices : MonoBehaviour {
 
 		Mesh mesh = moundBase.GetComponent<MeshFilter>().mesh;
 		moundBaseVertices = mesh.vertices;
+
+		// Transform to world space
+
+
 //		int i = 0;
 //		while (i < vertices.Length) {
 //			vertices[i] += Vector3.up * Time.deltaTime;
