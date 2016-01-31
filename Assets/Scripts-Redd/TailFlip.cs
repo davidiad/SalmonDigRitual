@@ -5,6 +5,7 @@ public class TailFlip : MonoBehaviour {
 
 	public float forceAmt;
 	public float forceRadius;
+	public float streamForceAmt;
 
 	private Rigidbody rb;
 
@@ -22,11 +23,11 @@ public class TailFlip : MonoBehaviour {
 			rb.AddTorque(-29999.0f * Vector3.forward);
 
 			Collider[] gravels = Physics.OverlapSphere(transform.position, forceRadius);
-			Debug.Log(gravels.Length);
+			//Debug.Log(gravels.Length);
 			foreach (Collider gravel in gravels) {
 				if(gravel.attachedRigidbody) {
 					gravel.attachedRigidbody.AddExplosionForce(forceAmt, transform.position, forceRadius);
-					gravel.attachedRigidbody.AddForce(-4.0f * Vector3.right);
+					gravel.attachedRigidbody.AddForce(streamForceAmt * Vector3.right);
 				}
 			}
 		}
